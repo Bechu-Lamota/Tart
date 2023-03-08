@@ -1,16 +1,35 @@
 * {
     margin: 0%;
     padding:0%;
+    color:  #735d78;
 }
 
+
 /*NAVBAR*/
-header div {
-    background-color:lightblue !important;
-    width: auto;
-    height: auto;
+.nav-bar {
+    background-color: #B392AC !important;
     opacity: 1;
-    color: black !important;
-    position:static;
+    padding: auto;
+    padding-bottom: 1px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+.offcanvas-tartufin {
+    background-color:  #B392AC !important;
+    border-left: 1px #CBC0D3 !important;
+}
+
+.titulo-canvas {
+    color: #FEEAFA !important;
+    opacity: 0 !important;
+}
+
+.nb-desplegable {
+    color: white !important;
+}
+
+header div {
     top: 0;
     right: 0;
     left: 0;
@@ -24,8 +43,8 @@ header div {
 /*CAROUSEL*/
 .carousel-tartufin {
     padding-top: 10px;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 36px;
+    margin-bottom: 20px;
     padding: auto;
 
 }
@@ -35,8 +54,7 @@ header div {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .presentacion-tartufin {
@@ -65,7 +83,6 @@ header div {
 .first-row .flex-row-algo{
     display: flex;
     margin-bottom: 10px;
-    border: 2px blue;
     flex-direction: row;
     text-align: center;
     justify-content: space-around;
@@ -73,12 +90,12 @@ header div {
 
 /*SEGUDA SECTION*/
 .p-clasif {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
 }
 
 .clasificacion-1 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     list-style: none;
 }
 
@@ -94,62 +111,62 @@ header div {
 }
 
 .td {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .hc {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px; 
+    margin-bottom: 10px;
 }
 
 .fc {
-    border: 1px solid black;
+    border: 1px solid #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .rd {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;  
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 
 /*SEGUDA SECTION*/
 .p-clasif {
-      margin-bottom: 15px;
+    margin-bottom: 10px;
 
 }
 
 .clasificacion-1 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     list-style: none;
 }
 
@@ -166,63 +183,63 @@ header div {
 }
 
 .produccion {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .comercial {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .finan {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .invydes {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .secserv {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /*MOMENTO*/
@@ -249,39 +266,39 @@ header div {
 }
 
 .cor {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .prev {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .dif {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /*FORMA*/
@@ -303,48 +320,87 @@ header div {
     padding-top: 10px;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-
 }
 
+/*FORMA BOX*/
+
 .Dir {
-    border: 1px solid black;
+    border: 1px solid #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: #735d78;
     text-shadow: 0.2px 0.6px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .Ind {
-    border: 1px solid black;
+    border: 1px solid  #735d78;
     border-radius: 0.55rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:  #735d78;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
+/*VARIABLE*/
+#row-total {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    text-shadow: 0px 0px 1px #d1d1d1 !important;
+    background: transparent !important;
+}
+
+/*cada item dentro de variable*/
+.vr-sm-fj-sf-mxt {
+    border: 1px solid #735d78;
+    border-radius: 0.55rem;
+    padding: 0.38rem 0.65rem;
+    list-style: none;
+    text-decoration: none;
+    color: #735d78;
+    text-shadow: 0.2px 0.6px 1px #d1d1d1 !important;
+    background: transparent !important;
+    margin-bottom: 10px;
+    text-align: none;
+}
+
+.vra-fij {
+    border: 1px solid  #735d78;
+    border-radius: 0.55rem;
+    padding: 0.38rem 0.65rem;
+    list-style: none;
+    text-decoration: none;
+    color:  #735d78;
+    text-shadow: 0px 0px 1px #d1d1d1 !important;
+    background: transparent !important;
+    margin-bottom: 10px;
+    text-align: none;
+}
+
+
 /*LINK DE REDIRECCIÓN*/
-.mucha-info {
-    display: block;
+.much-inf {
+    display: flex;
     text-align: center;
     margin-top: 9px;
     margin-bottom: 9px;
+    justify-content: center;
 }
 
 .TARTOUR-inicio {
     text-decoration: none;
-    color: black;
     margin-top: 9px;
     margin-bottom: 9px;
 }
-
 
 
 /*FOOTER*/
@@ -352,8 +408,9 @@ header div {
     display: grid;
     grid-template-columns: 2.5fr 0fr 4fr;
     grid-template-areas:
-    "Sec1 Sec2 Sec3";
-    background-color: lightgray;
+    "sec1 sec2 sec3"
+    "div1 div2 fa-2x";
+    background-color: #FEEAFA;
 
 
 }
@@ -365,29 +422,36 @@ header div {
     margin-bottom: 20px;
 }
 
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
 .ttf {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color:  #735d78;
 }
 
 .tyc {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color:  #735d78;
 }
 
 .ttw {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color:  #735d78;
     margin-top: 5px;
 }
 
 .faq {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color:  #735d78;
     margin-top: 5px;
 }
 
@@ -399,17 +463,24 @@ header div {
     margin-bottom: 20px;
 }
 
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
 .arpnt {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color:  #735d78;
 
 }
 
 .ctt {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color:  #735d78;
     margin-top: 5px;
 }
 
@@ -427,21 +498,43 @@ header div {
     display: flex;
     text-align: end;
     align-content: flex-end;
-    justify-content: space-between;
-    
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
 }
-/* Ahora hay que hacer el responsive
- de este fa-2x asi cuando se achica
- la pantalla queda bien.
- HAY QUE FIJARSE BIEN PARA QUE QUEDE RESPONSIVO */
+
+/*ICONOS*/
+.Wapp {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fb {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.github {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ig {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.discord {
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 /*LowContainer*/
 .CopyR {
     display: flex;
     position: relative;
     padding: 7px 10px;
-    background-color: lightblue;
-    border-top: 1px solid black;
+    background-color: #CBC0D3 ;
+    border-top: 1px solid  #735d78;
     box-sizing: inherit;
     letter-spacing: 0;
     text-align: center;

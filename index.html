@@ -16,30 +16,30 @@
 <!--HEADER-->
 <header>
     <div class="barra-tartufin">
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-dark bg-dark fixed-top nav-bar">
             <div class="container-fluid">
               <a class="navbar-brand" href="./index.html">TARTUFIN</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas offcanvas-end text-bg-dark offcanvas-tartufin" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Gestion y Costos (para contadores)
+                  <h5 class="offcanvas-title titulo-canvas" id="offcanvasDarkNavbarLabel">Gestion y Costos (para contadores)
                   </h5>
                   <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nb-desplegable">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nv-it-1">
                       <a class="nav-link" href="./HTML/tartour.html">Tartour</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nv-it-2">
                         <a class="nav-link" href="#">Proximamente</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nv-it-3">
                         <a class="nav-link" href="#">Contacto</a>
                     </li>
                   </ul>
@@ -149,25 +149,25 @@
 
                 <!--VARIABLE-->
                 <li><strong>Variabilidad:</strong> Se clasifican en costos para Controlar la Gestión o para Tomar Decisiones.</li>
-                <ul id="row-total">
-                    <li>Control de Gestión: </li>
-                      <ul>
+                <div id="row-total">
+                    <div class="cg">Control de Gestión: </div>
+                      <div class="vr-sm-fj-sf-mxt">
                         <li>Variables</li>
                         <li>Semivariables</li>
                         <li>Fijos</li>
                         <li>Semifijos</li>
                         <li>Mixtos</li>
-                       </ul>
-                    <li>Toma de Decisiones: </li>
-                     <ul>
+                     </div>
+                    <div class="td-">Toma de Decisiones: </div>
+                     <div class="vra-fij">
                          <li>Variables</li>
                          <li>Fijos</li>
-                            <ul>
-                                <li>Diferenciales</li>
-                                <li>Permanentes</li>
-                            </ul>
-                     </ul>
-                </ul>
+                         <ul class="dif-perm">
+                            <li>Diferenciales</li>
+                            <li>Permanentes</li>
+                         </ul>
+                     </div>
+                </div>
                 <li><strong>Grado de controlabilidad:</strong> Si son Controlables o No Controlables.</li>
                 <li><strong>Actividad:</strong> En lugar de clasificarlos por Función, lo hacemos por Actividad.</li>
             </ul> 
@@ -175,12 +175,16 @@
       </div>
 
       <!--LINK DE REDIRECCIÓN-->
-      <div class="mucha-info">
+      <div class="mucha-inf">
         <img src="./IMG/mucha info.png" alt="" >
         <h3>UFFF que eso fue mucha introducción...</h3>
         <h4>Tengo una manera más fácil de aprender... ¿Te copas?</h4>
         <h4> Hagamos el <a href="./HTML/tartour.html" class="TARTOUR-inicio"><strong>TARTOUR</strong></a> juntos.</h4>
       </div>
+
+      <!--JAVASCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 
 
@@ -188,27 +192,30 @@
 <footer>
 	<div class="GRID-Footer">
 		<section class="sec1">
-			<a href="3" class="ttf"><h1>TARTUFIN</h1></a>
-			<a href="3" class="tyc">Términos y Cóndiciones</a>
-			<a href="3" class="ttw">TARTUWORK</a>
-            <a href="3" class="faq">Preguntas Frecuentes</a>
+            <a href="3" class="ttf"><h1>TARTUFIN</h1></a>
+                 <div class="div1">
+			        <a href="3" class="tyc">Términos y Cóndiciones</a>
+			        <a href="3" class="ttw">TARTUWORK</a>
+                    <a href="3" class="faq">Preguntas Frecuentes</a>
+                </div>
 		</section>
 
 		<section class="sec2">
 			<h1 class="ttf">Ayuda</h1></li>
-			<a href="" class="arpnt">Arrepentimiento</a>
-			<a href="" class="ctt">Contacto</a>
+                 <div class="div2">
+			        <a href="" class="arpnt">Arrepentimiento</a>
+			        <a href="" class="ctt">Contacto</a>
+                </div>
 		</section>
 
 		<section class="sec3">
 				<h1>#ULearningBA</h1>
-			<ul class="#Fan-Pages">
 					<div class="fa-2x">
-						<i class="fa-brands fa-whatsapp fa-shake"></i>
-						<i class="fa-brands fa-facebook-f fa-shake"></i>
-                        <i class="fa-brands fa-github fa-shake"></i>
-                        <i class="fa-brands fa-instagram fa-shake"></i>
-                        <i class="fa-brands fa-discord fa-shake"></i>
+						<i class="Wapp fa-brands fa-whatsapp fa-shake"></i>
+						<i class="fb fa-brands fa-facebook-f fa-shake"></i>
+                        <i class="github fa-brands fa-github fa-shake"></i>
+                        <i class="ig fa-brands fa-instagram fa-shake"></i>
+                        <i class="discord fa-brands fa-discord fa-shake"></i>
                      </div>
 			</section>
 	</div>
@@ -218,8 +225,5 @@
 		<p> © 2023, ULearningBA | CABA, Argentina - All Rights Reserved</p>
 	</div>
 </footer>
-
-<!--JAVASCRIPT-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </html>
