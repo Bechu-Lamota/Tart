@@ -61,6 +61,16 @@ header div {
     margin-bottom: 10px;
 }
 
+/*box algo */
+.first-row .flex-row-algo{
+    display: flex;
+    margin-bottom: 10px;
+    border: 2px blue;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
 /*SEGUDA SECTION*/
 .p-clasif {
     margin-bottom: 15px;
