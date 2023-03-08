@@ -5,22 +5,38 @@
 
 /*NAVBAR*/
 header div {
-    background-color:green;
+    background-color:lightblue !important;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    color: black !important;
+    position:static;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1029;
+    padding: 4px;
+    padding-top: 4px !important;
+    padding-bottom: 10px;
 }
+
 
 /*CAROUSEL*/
-body div {
+.carousel-tartufin {
     padding-top: 10px;
-    margin-top: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: auto;
 
 }
 
+/*TEXTO*/
 .titulo_bienvenidos{
     display: flex;
     text-align: center;
     justify-content: center;
     margin-top: 5px;
-    margin-bottom: 3px;
+    margin-bottom: 30px;
 }
 
 .presentacion-tartufin {
@@ -334,7 +350,7 @@ body div {
 /*FOOTER*/
 footer {
     display: grid;
-    
+
     background-color: lightgray;
     list-style: none;
     text-decoration: none;
