@@ -173,13 +173,12 @@ header div {
 /*FUNCION*/
 #fun-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     margin-bottom: 1px;
     padding-top: 10px;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
     background: transparent !important;
-
 }
 
 .produccion {
@@ -388,8 +387,9 @@ header div {
 
 
 /*LINK DE REDIRECCIÓN*/
-.much-inf {
+.mucha-inf {
     display: flex;
+    flex-direction: column;
     text-align: center;
     margin-top: 9px;
     margin-bottom: 9px;
@@ -411,8 +411,7 @@ header div {
     "sec1 sec2 sec3"
     "div1 div2 fa-2x";
     background-color: #FEEAFA;
-
-
+    margin-top: 10px;
 }
 
 .sec1 {
@@ -541,6 +540,37 @@ header div {
     justify-content: center;
 }
 
+/*TARTOUR
+Acá comienza el espacio de trabajo CSS de HTML.TARTOUR
+*/
+.columna-fija {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: center;
+    list-style: none;
+    text-decoration: none;
+    color: #735d78 !important;
+    border-bottom: 1px solid  #735d78;
+    margin-bottom: 10px;
+
+}
+
+.row-titulo-tartour {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*LOS TRONCALES DEL MAQUETADO ESTAN ACÁ*/
+
+
+/* DESCRIPCIONES*/
+
+
+
 
 /* MARGENES GENERALES */
 p {
@@ -549,4 +579,11 @@ p {
     margin-bottom: 0px;
     margin-right: 0px;
     text-align: left;
+}
+
+/*PSEUDOCLASES*/
+
+a:active {
+    font-weight: bold;
+    border-radius: 0.55rem;
 }
