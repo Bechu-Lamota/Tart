@@ -348,12 +348,28 @@ header div {
 
 
 /*FOOTER*/
-footer {
+.GRID-Footer {
     display: grid;
-
+    grid-template-columns: 1fr 2fr 5fr;
+    grid-template-areas:
+    "Sec1 Sec2 Sec3";
     background-color: lightgray;
     list-style: none;
     text-decoration: none;
+}
+
+.sec2 {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+
+}
+
+.sec3 {
+    display: flex;
+    text-align: end;
+    justify-content: ;
+    align-content: flex-end;
 }
 
 /*LowContainer*/
