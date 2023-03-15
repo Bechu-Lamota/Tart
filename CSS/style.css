@@ -1,7 +1,6 @@
 * {
     margin: 0%;
     padding:0%;
-    color:  #735d78;
 }
 
 
@@ -402,16 +401,15 @@ header div {
     margin-bottom: 9px;
 }
 
-
 /*FOOTER*/
 .GRID-Footer {
     display: grid;
-    grid-template-columns: 2.5fr 0fr 4fr;
+    grid-template-columns: 1.9fr 1fr 1.5fr;
     grid-template-areas:
     "sec1 sec2 sec3"
     "div1 div2 fa-2x";
-    background-color: #FEEAFA;
-    margin-top: 10px;
+    background-color: #BD8B9C;
+    margin-top: 100px;
 }
 
 .sec1 {
@@ -431,26 +429,26 @@ header div {
 .ttf {
     text-decoration: none;
     list-style: none;
-    color:  #735d78;
+    color:  #FFFFEA;
 }
 
 .tyc {
     text-decoration: none;
     list-style: none;
-    color:  #735d78;
+    color:  #FFFFEA;
 }
 
 .ttw {
     text-decoration: none;
     list-style: none;
-    color:  #735d78;
+    color: #FFFFEA;
     margin-top: 5px;
 }
 
 .faq {
     text-decoration: none;
     list-style: none;
-    color:  #735d78;
+    color:  #FFFFEA;
     margin-top: 5px;
 }
 
@@ -472,14 +470,14 @@ header div {
 .arpnt {
     text-decoration: none;
     list-style: none;
-    color:  #735d78;
+    color:  #FFFFEA;
 
 }
 
 .ctt {
     text-decoration: none;
     list-style: none;
-    color:  #735d78;
+    color:  #FFFFEA;
     margin-top: 5px;
 }
 
@@ -504,42 +502,85 @@ header div {
 
 /*ICONOS*/
 .Wapp {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #FFFFEA;
 }
 .fb {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #FFFFEA;
 }
 
 .github {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #FFFFEA;
 }
 
 .ig {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #FFFFEA;
 }
 
 .discord {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #FFFFEA;
 }
 
 /*LowContainer*/
+
 .CopyR {
     display: flex;
-    position: relative;
-    padding: 7px 10px;
-    background-color: #CBC0D3 ;
-    border-top: 1px solid  #735d78;
-    box-sizing: inherit;
-    letter-spacing: 0;
+    position:static;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#5D737E;
+    border-top: 1.5px solid #FFFFEA;
     text-align: center;
-    justify-content: center;
+    justify-content: center;    color: #FFFFEA;
 }
 
+/*Cell Horizontal */
+@media screen and (max-width: 550px) {
+    .CopyR {
+        font-size: 10px;
+    }
+    .GRID-Footer {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        text-align: center;
+    }
+    .sec3 {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .fa-2x {
+        display: flex;
+        flex-direction: row;
+        font-size: medium;
+        justify-content: center;
+    }
+    .sec1 {
+        margin-bottom: 10px;
+    }
+    .sec2 {
+        margin-bottom: 10px;
+    }
+}
+
+/*Cell Horizontal */
+@media screen and (min-width: 551px) and (max-width: 960px){
+    .CopyR {
+        font-size: 12px;
+    }
+}
 /*TARTOUR
 Acá comienza el espacio de trabajo CSS de HTML.TARTOUR
 */
