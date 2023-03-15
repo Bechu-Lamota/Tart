@@ -409,7 +409,7 @@ header div {
     "sec1 sec2 sec3"
     "div1 div2 fa-2x";
     background-color: #BD8B9C;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .sec1 {
@@ -522,6 +522,7 @@ header div {
     margin-left: 2px;
     margin-right: 2px;
     color: #FFFFEA;
+    font-size: medium;
 }
 
 .discord {
@@ -540,7 +541,8 @@ header div {
     background-color:#5D737E;
     border-top: 1.5px solid #FFFFEA;
     text-align: center;
-    justify-content: center;    color: #FFFFEA;
+    justify-content: center;    
+    color: #FFFFEA;
 }
 
 /*Cell Horizontal */
