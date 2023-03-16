@@ -589,6 +589,7 @@ header div {
     
     .txt-1 {
         font-weight: 300;
+        margin-top: 5px;
 
     }
     
@@ -596,6 +597,7 @@ header div {
         text-decoration: none;
         color: black;
         font-weight: 700 !important;
+   
     }
     
     .binv2 {
