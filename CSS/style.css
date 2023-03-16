@@ -48,114 +48,116 @@ header div {
 
 }
 
-/*TEXTO*/
-.titulo_bienvenidos{
-    display: flex;
+/*MAIN*/
+.cajam {
+    display: grid;
+    width: auto;
+    column-gap: 1px;
+    row-gap: 10px;
     text-align: center;
-    justify-content: center;
-    margin-bottom: 15px;
+    padding: 2rem;
 }
 
-.presentacion-tartufin {
-    display: flex;
+.bi1 {
     text-align: center;
-    justify-content: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-weight: 2000;
+
 }
 
-.whats-cost {
+.caja {
+    display: flex;   
+}
+
+.binv {
     display: flex;
-    text-align: center;
-    justify-content: left;
     flex-direction: column;
-    margin-bottom: 10px;
-}
-
-.algo-tartufin {
-    display: block;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 10px;
+    align-items: center;
 }
 
-/*box algo */
-.first-row .flex-row-algo{
+.h-cost {
+    font-style: italic;
+    font-weight: 320;
+    border-bottom: 2px solid grey;
+}
+
+.txt-1 {
+    font-weight: 300;
+}
+
+.algo {
+    text-decoration: none;
+    color: black;
+    font-weight: 700 !important;
+}
+
+.binv2 {
     display: flex;
-    margin-bottom: 10px;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    justify-content: space-around;
-}
-
-/*SEGUDA SECTION*/
-.p-clasif {
-    margin-bottom: 10px;
-
-}
-
-.clasificacion-1 {
-    margin-bottom: 10px;
-    list-style: none;
-}
-
-/*FUNCION*/
-#flex-row-algo {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin-bottom: 1px;
-    padding-top: 10px;
-    text-shadow: 0px 0px 1px #d1d1d1 !important;
-    background: transparent !important;
 }
 
 .td {
-    border: 1px solid  #735d78;
-    border-radius: 0.55rem;
+    border: 1px solid #5D737E;
+    border-radius: 0.90rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color:  #735d78;
+    color:  #FFFFEA;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
-    background: transparent !important;
-    margin-bottom: 10px;
+    background: #AF125A !important;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 14px;
 }
-
 .hc {
-    border: 1px solid  #735d78;
-    border-radius: 0.55rem;
+    border: 1px solid #5D737E;
+    border-radius: 0.90rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color:  #735d78;
+    color:  #FFFFEA;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
-    background: transparent !important;
-    margin-bottom: 10px;
+    background: #BD8B9C !important;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 14px;
 }
-
 .fc {
-    border: 1px solid #735d78;
-    border-radius: 0.55rem;
+    border: 1px solid #5D737E;
+    border-radius: 0.90rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color:  #735d78;
+    color:  #FFFFEA;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
-    background: transparent !important;
-    margin-bottom: 10px;
+    background: #AF125A !important;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 14px;
 }
-
 .rd {
-    border: 1px solid  #735d78;
-    border-radius: 0.55rem;
+    border: 1px solid #5D737E;
+    border-radius: 0.90rem;
     padding: 0.38rem 0.65rem;
     list-style: none;
     text-decoration: none;
-    color:  #735d78;
+    color:  #FFFFEA;
     text-shadow: 0px 0px 1px #d1d1d1 !important;
-    background: transparent !important;  
-    margin-bottom: 10px;
+    background: #BD8B9C !important;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 14px;
 }
+/* FIN MAIN*/
+
+
+
+
+
+
 
 
 /*SEGUDA SECTION*/
@@ -522,7 +524,6 @@ header div {
     margin-left: 2px;
     margin-right: 2px;
     color: #FFFFEA;
-    font-size: medium;
 }
 
 .discord {
@@ -547,6 +548,118 @@ header div {
 
 /*Cell Horizontal */
 @media screen and (max-width: 550px) {
+    /*MAIN*/
+    .cajam {
+        display: grid;
+        width: auto;
+        text-align: center;
+        padding: 2rem;
+    }
+    
+    .bi1 {
+        display: none;
+    }
+
+    .bi1-mobil {
+        display: block;
+        text-align: center;
+        font-weight: 2000;
+    
+    }
+    
+    .caja {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .binv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 11.5px;
+    }
+    
+    .h-cost {
+        font-style: italic;
+        font-weight: 320;
+        border-bottom: 1px solid grey;
+    }
+    
+    .txt-1 {
+        font-weight: 300;
+
+    }
+    
+    .algo {
+        text-decoration: none;
+        color: black;
+        font-weight: 700 !important;
+    }
+    
+    .binv2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .td {
+        border: 1px solid #5D737E;
+        border-radius: 0.90rem;
+        padding: 0.38rem 0.65rem;
+        list-style: none;
+        text-decoration: none;
+        color:  #FFFFEA;
+        text-shadow: 0px 0px 1px #d1d1d1 !important;
+        background: #AF125A !important;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .hc {
+        border: 1px solid #5D737E;
+        border-radius: 0.90rem;
+        padding: 0.38rem 0.65rem;
+        list-style: none;
+        text-decoration: none;
+        color:  #FFFFEA;
+        text-shadow: 0px 0px 1px #d1d1d1 !important;
+        background: #BD8B9C !important;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .fc {
+        border: 1px solid #5D737E;
+        border-radius: 0.90rem;
+        padding: 0.38rem 0.65rem;
+        list-style: none;
+        text-decoration: none;
+        color:  #FFFFEA;
+        text-shadow: 0px 0px 1px #d1d1d1 !important;
+        background: #AF125A !important;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .rd {
+        border: 1px solid #5D737E;
+        border-radius: 0.90rem;
+        padding: 0.38rem 0.65rem;
+        list-style: none;
+        text-decoration: none;
+        color:  #FFFFEA;
+        text-shadow: 0px 0px 1px #d1d1d1 !important;
+        background: #BD8B9C !important;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+   /*FIN DEL MAIN*/
+
+   /*FOOTER*/
     .CopyR {
         font-size: 10px;
     }
@@ -579,9 +692,20 @@ header div {
 
 /*Cell Horizontal */
 @media screen and (min-width: 551px) and (max-width: 960px){
+    .bi1 {
+        display: block;
+        text-align: center;
+        font-weight: 2000;
+    }
+
+    .bi1-mobil {
+        display: none;
+    }
+    
     .CopyR {
         font-size: 12px;
     }
+
 }
 /*TARTOUR
 Acá comienza el espacio de trabajo CSS de HTML.TARTOUR
@@ -622,11 +746,4 @@ p {
     margin-bottom: 0px;
     margin-right: 0px;
     text-align: left;
-}
-
-/*PSEUDOCLASES*/
-
-a:active {
-    font-weight: bold;
-    border-radius: 0.55rem;
 }
