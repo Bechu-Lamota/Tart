@@ -472,6 +472,91 @@ header div {
     justify-content: center;    
     color: #FFFFEA;
 }
+/*TARTOUR*/
+.row-titulo-tartour {
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    }
+    
+    .tit-5 {
+    font-weight: 555;
+    margin: 1rem;
+    }
+    
+.tart-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "tartour-pt1 tartour-pt2";
+}
+/*PARTE 1*/
+.tartour-pt1 {
+    grid-area: tartour-pt1;
+    display: flex;
+    flex-direction: column;
+    position: sticky ;
+}
+.grilla-pt1 {
+    border-right: 2px solid #735d78;
+    margin: 1em;
+}
+.item-titulo {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.item-subtitulo {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+.it-titl {
+    color: #AF125A;
+    margin-bottom: 0%;
+    text-decoration: none;
+}
+.it-subt {
+    color: #BD8B9C;
+    margin-bottom: 0%;
+    text-decoration: none;
+}
+
+/*PARTE 2*/
+.tartour-pt2 {
+    grid-area: tartour-pt2;
+}
+.titulo-tartour {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.subtitulo-tartour {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.cl-txt-ttlo {
+    color: #AF125A;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0%;
+    text-decoration: underline;
+}
+.cl-txt-sbttlo {
+    color: #d27795;
+    font-size: 18px;
+    font-weight: 555;
+    margin-bottom: 0%;
+    text-decoration: underline;
+}
+.cl-txt-prf {
+    color: #4d3352;
+    font-size: 16px;
+    font-weight: 333;
+    margin-bottom: 0%;
+}
+
 
 /*Cell Horizontal */
 @media screen and (max-width: 550px) {
@@ -602,20 +687,21 @@ header div {
    .titulo-container {
     text-align: center;
     font-size: 16px;
-}
+    }
 
-.link-carta {
+    .link-carta {
     color: #BD8B9C;
     text-decoration: none;
     font-weight: 500;
     font-size: 13px;
-}
-.link-carta2 {
+    }
+    .link-carta2 {
     color: #BD8B9C;
     text-decoration: none;
     font-weight: 500;
     font-size: 13px;
-}
+    }
+
    /*Fin del SECTION */
    .vs {
     display: grid;
@@ -626,18 +712,18 @@ header div {
     "cj-mid"
     "cj-fin";
     align-items: center;
-}
-.cj-ini {
+    }
+    .cj-ini {
     grid-area: cj-ini;
     text-align: center;
-}
-.cj-mid {
+    }
+    .cj-mid {
     grid-area: cj-mid;
-}
-.cj-fin {
+    }
+    .cj-fin {
     grid-area: cj-fin;
     text-align: center;
-}
+    }
 
 
    /*FOOTER*/
@@ -669,6 +755,98 @@ header div {
     .sec2 {
         margin-bottom: 10px;
     }
+
+    /*TARTOUR*/
+    .row-titulo-tartour {
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: auto;
+    text-align: center;
+    text-decoration: underline;
+    }
+
+    .tit-5 {
+    font-size: 12px;
+    font-weight: 333;
+    margin: 1rem;
+    }
+
+
+    .tart-grid {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    /*PARTE 1*/
+    .tartour-pt1 {
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .grilla-pt1 {
+        display: none;
+        border-right: 2px solid #735d78;
+        margin: 1em;
+    }
+    .item-titulo {
+        display: none;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .item-subtitulo {
+        display: none;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        text-decoration: none;
+    }
+    .it-titl {
+        color: #AF125A;
+        margin-bottom: 0%;
+        text-decoration: none;
+    }
+    .it-subt {
+        color: #BD8B9C;
+        margin-bottom: 0%;
+        text-decoration: none;
+    }
+
+/*PARTE 2*/
+
+.tartour-pt2 {
+    grid-area: tartour-pt2;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem;
+}
+.titulo-tartour {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.subtitulo-tartour {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.cl-txt-ttlo {
+    color: #AF125A;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.cl-txt-sbttlo {
+    color: #d27795;
+    font-size: 18px;
+    font-weight: 555;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.cl-txt-prf {
+    color: #4d3352;
+    font-size: 16px;
+    font-weight: 333;
+    margin-bottom: 0%;
 }
 
 /*Cell Horizontal */
@@ -737,34 +915,101 @@ header div {
 /*TARTOUR
 Acá comienza el espacio de trabajo CSS de HTML.TARTOUR
 */
-.columna-fija {
+/*CAROUSEL*/
+.row-titulo-tartour {
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tit-5 {
+    font-size: 18px;
+    font-weight: 511;
+}
+
+
+.tart-grid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "tartour-pt2";
+}
+/*PARTE 1*/
+.tartour-pt1 {
+    display: none;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    position: center;
-    list-style: none;
+}
+.grilla-pt1 {
+    display: none;
+    border-right: 2px solid #735d78;
+    margin: 1em;
+}
+.item-titulo {
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.item-subtitulo {
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 2px;
     text-decoration: none;
-    color: #735d78 !important;
-    border-bottom: 1px solid  #735d78;
-    margin-bottom: 10px;
-
+}
+.it-titl {
+    display: none;
+    color: #AF125A;
+    margin-bottom: 0%;
+    text-decoration: none;
+}
+.it-subt {
+    display: none;
+    color: #BD8B9C;
+    margin-bottom: 0%;
+    text-decoration: none;
 }
 
-.row-titulo-tartour {
+/*PARTE 2*/
+.tartour-pt2 {
+    grid-area: tartour-pt2;
     display: flex;
+    flex-direction: column;
+    text-align: start;
+
+}
+.titulo-tartour {
+    margin-top: 5px;
     margin-bottom: 10px;
-    margin-top: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
+}
+.subtitulo-tartour {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.cl-txt-ttlo {
+    color: #AF125A;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.cl-txt-sbttlo {
+    color: #d27795;
+    font-size: 18px;
+    font-weight: 555;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.cl-txt-prf {
+    color: #4d3352;
+    font-size: 16px;
+    font-weight: 333;
+    margin-bottom: 0%;
 }
 
-/*LOS TRONCALES DEL MAQUETADO ESTAN ACÁ*/
-
-
-/* DESCRIPCIONES*/
-
-
-
+}
 
 /* MARGENES GENERALES */
 p {
