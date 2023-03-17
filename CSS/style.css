@@ -65,21 +65,27 @@ header div {
 }
 
 .caja {
-    display: flex;   
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "binv binv2";   
 }
 
 .binv {
-    display: flex;
+    grid-area: binv;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 .h-cost {
     font-style: italic;
     font-weight: 320;
     border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
 }
 
 .txt-1 {
@@ -93,6 +99,7 @@ header div {
 }
 
 .binv2 {
+    grid-area: binv2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,6 +208,8 @@ header div {
     align-items: flex-end;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: end;
+    margin-top: 50px;
 }
 
 .muto {
@@ -482,7 +491,6 @@ header div {
         display: block;
         text-align: center;
         font-weight: 2000;
-    
     }
     
     .caja {
@@ -497,12 +505,14 @@ header div {
         text-align: center;
         align-items: center;
         font-size: 11.5px;
+        margin-bottom: 8px;
     }
     
     .h-cost {
         font-style: italic;
         font-weight: 320;
         border-bottom: 1px solid #5D737E;
+        border-top: 1px solid #5D737E;
     }
     
     .txt-1 {
